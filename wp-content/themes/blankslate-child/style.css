@@ -1,0 +1,274 @@
+/*
+Theme Name: BlankSlate Child
+Theme URI: https://github.com/tidythemes/blankslate
+Template: blankslate
+Author: TidyThemes
+Author URI: https://github.com/tidythemes
+Description: Donations: https://calmestghost.com/donate. BlankSlate is the definitive WordPress boilerplate starter theme. We've carefully constructed the most clean and minimalist theme possible for designers and developers to use as a base to build websites for clients or to build completely custom themes from scratch. Clean, simple, unstyled, semi-minified, unformatted, and valid code, SEO-friendly, jQuery-enabled, no programmer comments, standardized and as white label as possible, and most importantly, the CSS is reset for cross-browser-compatability and no intrusive visual CSS styles have been added whatsoever. A perfect skeleton theme. For support and suggestions, go to: https://github.com/tidythemes/blankslate/issues. Thank you.
+Tags: accessibility-ready,one-column,two-columns,custom-menu,featured-images,microformats,sticky-post,threaded-comments,translation-ready
+Version: 2023.1682162076
+Updated: 2023-04-22 13:14:36
+
+*/
+
+.custom-logo {
+    height: 86%;
+    width: 23%;
+
+    
+}
+#header{
+    display: flex;
+    padding-top: 1%;
+    padding-bottom:1%;
+    position:fixed; 
+    background-color: #fff;
+    z-index: 999;
+
+}
+
+.body{
+    background-color:#ECE2DA;
+    width:100%;
+}
+.menu{
+    display:flex;
+    width: 500px;
+}
+.menu .menu-item{
+    width:25%;
+    margin-left: 10%;
+    padding: 10px;
+}
+.menu .menu-item a{
+    color:#000;
+    text-decoration: none;
+}
+.rencontrer {
+    position: relative;
+    background-color: #fff;
+    margin-right: 50px;
+    font-family: 'Syne';
+    color: black;
+    text-decoration: none;
+}
+
+.sizelien {
+    margin-right: 7%;
+    margin-top: 24px;
+}
+
+.mentions{
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    padding-left: 45%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    
+}
+
+
+.sizelien a:hover {
+    font-family: 'Syne bold', sans-serif, normal;
+}
+
+.commander {
+    font-family: 'Syne';
+    color: #fff;
+    background: #DC9F96;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.commander:hover {
+    background: #C02E44;
+
+}
+
+/******* Page d'acceuil *******/
+.flexbetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boissonenergisante {
+    font-family: "Syne", "Bold";
+    color: #3B8E46;
+}
+
+.feuille1{
+    position: absolute;
+    z-index:1;
+    left: 25%;
+    top: 35%;
+}
+
+.feuille2{
+    position: absolute;
+    z-index:1;
+    left: 50%;
+    top: 35%;
+}
+
+.canette{
+    position:relative;
+    z-index: 3;
+}
+.bloccanette {
+    text-align: center;
+}
+
+.energiedesplantes {
+    font-family: "Syne";
+    color: #3B8E46;
+    
+}
+
+.lesgouts {
+    font-family: "Syne";
+    font-style: "ExtraBold";
+    color: #D2776A;
+    font-size: 30px;
+    margin-top: 7%;
+}
+
+.galerie {
+    justify-self:center;
+    width: 79%;
+    padding-left: 20%;
+    justify-content: space-between;
+}
+
+.wp-block-buttons{
+  margin-top: 4%;
+}
+
+.wp-block-button__link :hover {
+    background: #C02E44;
+
+}
+.cequilsenpensent {
+    font-family: "Syne-ExtraBold 800", "ExtraBold";
+    color: #3B8E46;
+    margin-bottom: 9%;
+
+}
+.nomdesavis {
+    font-family: "Syne";
+    font-size: 30px;
+    color: #3B8E46;
+    text-align: start;
+    margin-bottom: 8%;
+}
+
+.texteavis {
+    font-family: "Syne";
+    font-size: 16px;
+    color: black;
+    
+    text-align: start;
+}
+
+.texte {
+    font-family: "Syne";
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-left: 29%;
+    margin-right: 29%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+/******* Page nous rencontrer *******/
+
+.wp-image-242{
+    margin-left: 11%;
+    
+}
+.wp-image-148{
+    margin-left: -24%;
+    margin-bottom: -14%;
+
+}
+.nousrencontrer {
+    font-family: "Syne";
+    color: #D2776A;
+    text-align: center;
+    margin-top: -8%;
+}
+
+.lequipe {
+    font-family: "Syne";
+    text-align: center;
+    font-size: 30px;
+ 
+}
+
+
+.nomequipe {
+    text-align: center;
+    font-family: "Syne";
+    font-size: 20px;
+    MARGIN-BOTTOM: 2%;
+    MARGIN-TOP: 10%;
+}
+
+.nouscontacter {
+    font-family: "Syne";
+    color: black;
+    text-align: center;
+    line-height: 30px;
+}
+
+.wpforms-validate{
+    margin-left:33%;
+    font-family: "Syne";
+}
+
+
+
+
+/****** Page commander ******/
+
+.titrecommander {
+    font-family: "Syne";
+    color: #fff;
+    text-align: center;
+    margin-top: 9%;
+}
+
+.separateur1 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.votrecommande {
+    font-family: "Syne";
+    color: #fff;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-bottom: 4%;
+
+}
+
+.photocommande {
+    text-align: center;
+    height: 128.86px;
+    width: 80%;
+    height: 20%;
+    margin-left: 10%;
+
+}
+
+.formulairecommande{
+    margin-left: 10%;
+
+
+}
+
