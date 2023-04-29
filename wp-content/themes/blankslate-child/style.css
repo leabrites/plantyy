@@ -272,3 +272,8 @@ Updated: 2023-04-22 13:14:36
 
 }
 
+@media (max-width:480px) {
+    .feuille1,.feuille2{
+        display: none;
+    }
+}
