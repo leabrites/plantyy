@@ -189,28 +189,37 @@ Updated: 2023-04-22 13:14:36
 
 .wp-image-242{
     margin-left: 11%;
+    margin-top:10%;
     
 }
 .wp-image-148{
     margin-left: -24%;
     margin-bottom: -14%;
+    margin-top: -68%
+
 
 }
 .nousrencontrer {
     font-family: "Syne";
     color: #D2776A;
     text-align: center;
-    margin-top: -8%;
+    margin-top: -5%;
 }
 
 .lequipe {
-    font-family: "Syne";
-    text-align: center;
-    font-size: 30px;
- 
+    margin-top: 9%;
+    margin-bottom: 4%;
 }
 
+.wp-block-group {
+    margin-right: 31%;
+    margin-top: 5%;
+    margin-left: 31%;
+}
 
+.wp-block-column {
+    margin-left:-85%;
+}
 .nomequipe {
     text-align: center;
     font-family: "Syne";
