@@ -144,8 +144,8 @@ Updated: 2023-04-22 13:14:36
 
 .galerie {
     justify-self:center;
-    width: 79%;
-    padding-left: 16%;
+    width: 67%;
+    margin-left: 16%;
     justify-content: space-between;
 }
 
@@ -270,11 +270,15 @@ Updated: 2023-04-22 13:14:36
     font-family: "Syne";
     color: #fff;
     margin-top: 3%;
-    margin-left: 14%;
+    margin-left: 18%;
     margin-bottom: 4%;
 
 }
 
+.bloccommande{
+    margin-left:18%;
+    margin-right:18%;
+}
 .photocommande {
     text-align: center;
     height: 128.86px;
@@ -283,6 +287,29 @@ Updated: 2023-04-22 13:14:36
 
 }
 
+.product-quantity-spin{
+    height: 100%;
+    width: 100%;  
+    border-radius: 19% 00% 00% 19%;
+    text-align: center;
+    
+}
+
+.touchspin-up{
+    background-color: #D2776A;
+    color: #fff;
+    width: 31px;
+    height: 31px;
+    border-radius: 0% 19% 0% 0%;
+}
+
+.touchspin-down{
+    background-color: #D2776A;
+    color:#fff;
+    width: 31px;
+    height: 31px;
+    border-radius: 0% 0% 19% 0%;
+}
 .wpforms-submit{
     display:none;
 }
