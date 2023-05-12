@@ -38,3 +38,11 @@ function themename_custom_logo_setup() {
 	add_theme_support( 'custom-logo', $defaults );
 }
 add_action( 'after_setup_theme', 'themename_custom_logo_setup' );
+
+add_filter( 'wp_nav_menu_items', 'add_extra_item_to_nav_menu', 10, 2 );
+function add_extra_item_to_nav_menu( $items, $args ) {
+    if (is_user_logged_in() && $args->theme_location == "main-menu") {
+        $items = '<li class="menu-item"><a href="'.get_admin_url() .'">Admin</a></li>'.$items;
+    }
+    return $items;
+}

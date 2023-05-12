@@ -7,7 +7,7 @@
     <?php wp_head(); ?>
 </head>
 
-<body class="body" <?php body_class(); ?>>
+<body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
     <div id="wrapper" class="hfeed">
         <header id="header" role="banner">
