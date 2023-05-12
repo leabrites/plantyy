@@ -12,33 +12,34 @@ Updated: 2023-04-22 13:14:36
 */
 
 .custom-logo {
-    height: 86%;
-    width: 23%;
-
+    height: 84%;
+    width: 27%;
+    margin-left: 2%;
     
 }
 #header{
     display: flex;
-    padding-top: 1%;
-    padding-bottom:1%;
     position:fixed; 
     background-color: #fff;
     z-index: 999;
 
 }
 
-.body{
+.page{
     background-color:#ECE2DA;
     width:100%;
+}
+
+.page-id-48{
+    background-color: #3B8E46;
 }
 .menu{
     display:flex;
     width: 500px;
 }
 .menu .menu-item{
-    width:28%;
-    margin-left: 10%;
-    padding: 10px;
+    width:34%;
+    padding: 22px;
 }
 .menu .menu-item a{
     color:#000;
@@ -77,10 +78,14 @@ Updated: 2023-04-22 13:14:36
 
 .commander {
     font-family: 'Syne';
-    color: #fff;
+    color: #fff !important;
     background: #DC9F96;
     text-decoration: none;
     text-align: center;
+}
+
+.commander span{
+    color: #fff;
 }
 
 
@@ -196,8 +201,14 @@ Updated: 2023-04-22 13:14:36
 .wp-image-148{
     margin-left: -24%;
     margin-bottom: -14%;
-    margin-top: -68%
+    margin-top: -68%;
+}
 
+
+
+.wp-image-261{
+    margin-left: 93%;
+    margin-top: 64%;
 
 }
 .nousrencontrer {
@@ -220,17 +231,17 @@ Updated: 2023-04-22 13:14:36
     MARGIN-TOP: 10%;
 }
 
-.wp-block-group {
-    margin-right: 31%;
-    margin-top: 5%;
-    margin-left: 31%;
-}
+
 .nouscontacter {
    margin-top: 5%;
 }
 
 
-
+.photolequipe {
+    margin-right: 31%;
+    margin-top: 5%;
+    margin-left: 31%;
+}
 /****** Page commander ******/
 
 .titrecommander {
@@ -245,10 +256,16 @@ Updated: 2023-04-22 13:14:36
 }
 
 .separateurformulaire{
-    height: 75%;
+    height: 82%;
     width: 1%;
+    
+    
 }
 
+.groupeformulaire{
+    margin-left: 18%;
+    margin-right: 18%;
+}
 .votrecommande {
     font-family: "Syne";
     color: #fff;
@@ -273,6 +290,32 @@ Updated: 2023-04-22 13:14:36
 .wp-element-button{
     background-color: #DC9F96;
 }
+ 
+.cart__product__meta .input-group{
+    display:grid;
+    grid-template-areas: 'input input plus'
+                          'input input minus';
+  }
+  .cart__product__meta .input-group input{
+    grid-area: input;
+  }
+  .cart__product__meta .input-group .touchspin-up{
+    grid-area: plus;
+  }
+  .cart__product__meta .input-group .touchspin-down{
+    grid-area: minus;
+  }
+  .cart__product__meta {
+    display: flex;
+    align-items: center; 
+  }
+  @media screen and (max-width: 769px){
+    .cart__product__meta .input-group{
+      grid-template-areas: 'minus input plus'
+                            'minus input plus';
+    }
+  }
+
 
 @media (max-width:480px) {
     .feuille1,.feuille2{
