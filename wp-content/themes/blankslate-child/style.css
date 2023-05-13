@@ -13,7 +13,7 @@ Updated: 2023-04-22 13:14:36
 
 .custom-logo {
     height: 84%;
-    width: 27%;
+    width: 37%;
     margin-left: 2%;
     
 }
@@ -350,6 +350,12 @@ Updated: 2023-04-22 13:14:36
     }
 }
 @media (max-width:751px) {
+    .wp-image-148{
+        display: none;
+    }
+}
+
+@media (max-width:1107px) {
     .wp-image-148{
         display: none;
     }
