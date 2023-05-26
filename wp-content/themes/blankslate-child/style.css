@@ -35,10 +35,10 @@ Updated: 2023-04-22 13:14:36
 }
 .menu{
     display:flex;
-    width: 388px;
+    width: 500px;
 }
 .menu .menu-item{
-    
+    width:51%;
     padding: 23px;
 }
 .menu .menu-item a{
@@ -475,5 +475,20 @@ Updated: 2023-04-22 13:14:36
 @media (max-width:488px) {
     .menu-item,.commander,.menu-item-54{
        font-size: 12px;
+}
+}
+
+
+@media (max-width:488px) {
+    .menu{
+        display:flex;
+        width: 330px;
+        height: 60px;
+}
+}
+
+@media (max-width:488px) {
+    .menu .menu-item{
+    padding: 22px;
 }
 }
