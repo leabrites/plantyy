@@ -35,11 +35,11 @@ Updated: 2023-04-22 13:14:36
 }
 .menu{
     display:flex;
-    width: 500px;
+    width: 388px;
 }
 .menu .menu-item{
-    width:34%;
-    padding: 22px;
+    
+    padding: 23px;
 }
 .menu .menu-item a{
     color:#000;
@@ -49,8 +49,8 @@ Updated: 2023-04-22 13:14:36
     position: relative;
     background-color: #fff;
     margin-right: 50px;
-    font-family: 'Syne';
-    color: black;
+    font-family: 'Syne';;
+    color: red;
     text-decoration: none;
 }
 
@@ -66,8 +66,8 @@ Updated: 2023-04-22 13:14:36
     text-decoration: none;
     display: flex;
     padding-left: 45%;
-    padding-bottom: 3%;
-    padding-top: 3%;
+    padding-bottom: 2%;
+    padding-top: 2%;
     
 }
 
@@ -109,15 +109,15 @@ Updated: 2023-04-22 13:14:36
 .feuille1{
     position: absolute;
     z-index:1;
-    left: 25%;
-    top: 35%;
+    left: 26%;
+    top: 62%;
 }
 
 .feuille2{
     position: absolute;
     z-index:1;
     left: 50%;
-    top: 35%;
+    top: 62%;
 }
 
 .canette{
@@ -191,7 +191,20 @@ Updated: 2023-04-22 13:14:36
     margin-bottom: 3%;
 }
 
-/******* Page nous rencontrer *******/
+.ombre {
+    min-height: 601px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.banniereavis {
+    min-height: 601px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom:0 !important;
+}
+    /******* Page nous rencontrer *******/
 
 .wp-image-242{
     margin-left: 11%;
@@ -250,6 +263,9 @@ Updated: 2023-04-22 13:14:36
     text-align: center;
 }
 
+.blocbouton{
+    gap: 11px;
+}
 .separateur1 {
     margin-left: 18%;
     margin-right: 18%;
@@ -258,7 +274,6 @@ Updated: 2023-04-22 13:14:36
 .separateurformulaire{
     height: 82%;
     width: 1%;
-    
     
 }
 
@@ -290,8 +305,10 @@ Updated: 2023-04-22 13:14:36
 .product-quantity-spin{
     height: 100%;
     width: 100%;  
-    border-radius: 19% 00% 00% 19%;
+    font-size: 19px;
+    border-radius: 10% 00% 00% 10% !important;
     text-align: center;
+    border: 0;
     
 }
 
@@ -301,6 +318,7 @@ Updated: 2023-04-22 13:14:36
     width: 31px;
     height: 31px;
     border-radius: 0% 19% 0% 0%;
+    border: 0;
 }
 
 .touchspin-down{
@@ -309,13 +327,18 @@ Updated: 2023-04-22 13:14:36
     width: 31px;
     height: 31px;
     border-radius: 0% 0% 19% 0%;
+    border: 0;
 }
 .wpforms-submit{
     display:none;
 }
 
 .wp-element-button{
-    background-color: #DC9F96;
+    background-color: #E0B9B4;
+}
+
+.boutoncommander{
+    width: 17% !important;
 }
  
 .cart__product__meta .input-group{
@@ -359,4 +382,98 @@ Updated: 2023-04-22 13:14:36
     .wp-image-148{
         display: none;
     }
+}
+
+@media (max-width:784px) {
+    .separateurformulaire{
+        display: none;
+    }
+}
+
+@media (max-width:784px) {
+    .titrecommander,.nousrencontrer{
+        font-size: 22px !important;
+    }
+}
+
+@media (max-width:769px) {
+    .touchspin-down{
+        border-radius: 19% 0% 0% 19%;
+    }
+}
+@media (max-width:769px) {
+    .touchspin-up{
+        border-radius: 0% 19% 19% 0%;
+    }
+}
+
+@media (max-width:769px) {
+    .product-quantity-spin{
+        border-radius: none !important;
+    }
+}
+@media (max-width:781px) {
+    .texte{
+        font-size: 12px !important;
+    }
+}
+
+
+@media (max-width:781px) {
+    .lequipe{
+        margin-top: 49%;
+        margin-bottom: 11%;
+    }
+}
+
+@media (max-width:644px) {
+    .boissonenergisante,.cequilsenpensent,.lesgouts{
+        font-size: 22px !important;
+    }
+}
+
+@media (max-width:770px) {
+    .wp-image-133,.wp-image-196,.wp-image-197{
+        width: 73%;
+    }
+}
+
+@media (max-width:600px) {
+    .wp-image-133,.wp-image-196,.wp-image-197{
+        width: 29% !important;
+        margin-left: 8%;
+        margin-bottom: 2%;
+    }
+}
+
+@media (max-width:781px) {
+    .cequilsenpensent{
+        margin-top: 20%;
+        
+    }
+}
+
+
+
+
+@media (max-width:665px) {
+    .menu-item-1{
+   width: 10%;
+    }
+}
+@media (max-width:488px) {
+    .custom-logo{
+       display: none;
+}
+}
+@media (max-width:488px) {
+    .menu{
+       width:500px ;
+}
+}
+
+@media (max-width:488px) {
+    .menu-item,.commander,.menu-item-54{
+       font-size: 12px;
+}
 }
